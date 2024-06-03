@@ -1,0 +1,54 @@
+--> Hi Aya
+--> Hamza Ashry <--
+--> Aya Zaky
+--> test
+---> This is My Function 
+
+        public HttpResponseMessage GetAllChapters()
+        {
+            List<Chapter> list = new List<Chapter>();
+            SqlConnection conn = new SqlConnection(ConnectionString.ConnStr());
+            string query = "SELECT * FROM Chapter";
+            SqlCommand comm = new SqlCommand(query, conn);
+
+            try
+            {
+                conn.Open();
+                SqlDataReader reader = comm.ExecuteReader();
+                while (reader.Read())
+                {
+                    list.Add(new Chapter()
+                    {
+                        S_ID = int.Parse(reader[0].ToString()),
+                        C_ID = int.Parse(reader[1].ToString()),
+                        C_Name = reader[2].ToString(),
+                        C_Insert_U_ID = int.Parse(reader[3].ToString()),
+                        C_Insert_Date = DateTime.Parse(reader[4].ToString()),
+                        C_Update_U_ID = int.Parse(reader[5].ToString()),
+                        C_Update_Date = DateTime.Parse(reader[6].ToString())
+                    });
+                }
+                conn.Close();
+                if (list.Count == 0)
+                    return Request.CreateResponse
+                        (HttpStatusCode.Gone, Messages.NotExist("فصول"));
+
+                return Request.CreateResponse
+                    (HttpStatusCode.OK, list);
+            }
+            catch (System.Data.SqlClient.SqlException ex)
+            {
+                conn.Close();
+                if (ex.Message.StartsWith("A network-related"))
+                    return Messages.NoInternet();
+
+                return Messages.Message(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                conn.Close();
+                return Messages.Message(ex.Message);
+            }
+        }
+--> Hamza Ashry <--
+emergencyproject-001-site1.btempurl.com/

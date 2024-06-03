@@ -1,0 +1,59 @@
+//////////////////// Request //////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/Requst/Insert_Requst 
+emergencyproject-001-site1.btempurl.com/api/Requst/Update_Requst?REQ_ID=value 
+emergencyproject-001-site1.btempurl.com/api/Requst/Delete_Requst?REQ_ID=value // for delete request
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// RequestBlock ///////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/RequstBlock/Insert_RequstBlock 
+emergencyproject-001-site1.btempurl.com/api/RequstBlock/Update_RequstBlock?REQB_ID=value 
+emergencyproject-001-site1.btempurl.com/api/RequstBlock/Delete_RequstBlock?REQB_ID=value 
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// Response ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/Response/Insert_Response  
+emergencyproject-001-site1.btempurl.com/api/Response/Update_Response?RSP_ID=value 
+emergencyproject-001-site1.btempurl.com/api/Response/Delete_Response?RSP_ID=value 
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// ResponseBlock ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/ResponseBlock/Insert_ResponseBlock  
+emergencyproject-001-site1.btempurl.com/api/ResponseBlock/Update_ResponseBlock?RSPB_ID=value 
+emergencyproject-001-site1.btempurl.com/api/ResponseBlock/Update_ResponseBlockResult?RSPB_ID=2&Result=(true or false) // for update (result or not)
+emergencyproject-001-site1.btempurl.com/api/ResponseBlock/Delete_ResponsBlocke?RSPB_ID=value 
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// Staff ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/Staff/Get_All_Staff_Of_Hospital?HOS_ID=value
+emergencyproject-001-site1.btempurl.com/api/Staff/Get_All_Staff_Of_Specific_Type?SST_ID=value
+emergencyproject-001-site1.btempurl.com/api/Staff/Get_Staff_by_STF_NatID?STF_NatID=value
+emergencyproject-001-site1.btempurl.com/api/Staff/Insert_Staff
+emergencyproject-001-site1.btempurl.com/api/Staff/Update_Staff?STF_ID=value
+emergencyproject-001-site1.btempurl.com/api/Staff/Delete_Staff_by_STF_ID?STF_ID=value
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// Staff_Login ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/StaffLogin/Login?SLOG_Username=value&SLOG_Password=value
+emergencyproject-001-site1.btempurl.com/api/StaffLogin/Insert_Staff_Login
+emergencyproject-001-site1.btempurl.com/api/StaffLogin/Update_Staff_Login?SLOG_ID=value
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// Staff_Type ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/StaffType/Insert_Staff_Type
+emergencyproject-001-site1.btempurl.com/api/StaffType/Update_Staff_Type?STT_ID=value
+emergencyproject-001-site1.btempurl.com/api/StaffType/Delete_Staff_Type?STT_ID=value
+
+//////////////////////////////////////////////////////////////////////////////////////

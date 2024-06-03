@@ -1,0 +1,89 @@
+____________
+Department
+____________ 
+--> GET
+emergencyproject-001-site1.btempurl.com/api/Department/Get_All_Departments_Of_Hospital?HOS_ID={HOS_ID}	
+--> POST
+emergencyproject-001-site1.btempurl.com/api/Department/Insert_Department	
+--> PUT
+emergencyproject-001-site1.btempurl.com/api/Department/Update_Department?DEP_ID={DEP_ID}	
+--> DELETE
+emergencyproject-001-site1.btempurl.com/api/Department/Delete_All_Departments_Of_Hospital?HOS_ID={HOS_ID}	
+emergencyproject-001-site1.btempurl.com/api/Department/Delete_Dep?DEP_ID={DEP_ID}	
+ 
+_______________
+Hospital_Phone
+_______________	
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Hospital_Phone/Insert_Hospital_Phone	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Hospital_Phone/Update_Hospital_Phone?PHO_ID={PHO_ID} 
+--> DELETE 
+emergencyproject-001-site1.btempurl.com/api/Hospital_Phone/Delete_All_Hospital_Phones?HOS_ID={HOS_ID}	
+
+_______________
+Patient
+_______________
+--> GET 
+emergencyproject-001-site1.btempurl.com/api/Patient/Get_All_Patients_In_Hospital?HOS_ID={HOS_ID}	 
+emergencyproject-001-site1.btempurl.com/api/Patient/Get_Patient_by_PAT_NatID?PAT_NatID={PAT_NatID}	
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Patient/Insert_Patient	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Patient/Update_Patient?PAT_ID={PAT_ID}	
+--> DELETE 
+emergencyproject-001-site1.btempurl.com/api/Patient/Delete_Patient_by_PAT_ID?PAT_ID={PAT_ID}	
+
+_______________
+Hospital
+_______________
+GET 
+emergencyproject-001-site1.btempurl.com/api/Hospital/Get_All_Hospitals	
+emergencyproject-001-site1.btempurl.com/api/Hospital/Get_Hospital_By_HOS_ID?HOS_ID={HOS_ID}	
+POST 
+emergencyproject-001-site1.btempurl.com/api/Hospital/Insert_Hospital	
+PUT 
+emergencyproject-001-site1.btempurl.com/api/Hospital/Update_Hospital?HOS_ID={HOS_ID}	
+DELETE 
+emergencyproject-001-site1.btempurl.com/api/Hospital/Delete_Hospital_by_HOS_ID?HOS_ID={HOS_ID}	
+
+_______________
+Notes
+_______________
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Notes/Insert_Note	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Notes/Update_Note?NOT_ID={NOT_ID}	
+--> DELETE
+emergencyproject-001-site1.btempurl.com/api/Notes/Delete_Note_by_NOT_ID?NOT_ID={NOT_ID}	
+
+_______________ 
+Address_Info
+_______________
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Address_Info/Insert_Address_Info	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Address_Info/Update_Address_Info?ADI_ID={ADI_ID}	
+--> DELETE 
+emergencyproject-001-site1.btempurl.com/api/Address_Info/Delete_Address_by_ID?ADI_ID={ADI_ID}	
+
+_______________
+Application
+_______________
+--> GET 
+emergencyproject-001-site1.btempurl.com/api/Application/Get_All_Applications_Of_Hospital?HOS_ID={HOS_ID}	
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_APP_Code?APP_Code={APP_Code}	
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_APP_ComName?APP_ComName={APP_ComName}	
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_PAT_NatID?PAT_NatID={PAT_NatID}	
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_APP_ComNatID?APP_ComNatID={APP_ComNatID}	
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Application/Insert_Application	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Application/Update_Application?APP_ID={APP_ID}	
+emergencyproject-001-site1.btempurl.com/api/Application/Update_APP_State?APP_ID={APP_ID}&APP_IsOpen={APP_IsOpen}	
+--> DELETE 
+emergencyproject-001-site1.btempurl.com/api/Application/Delete_All_APPlications_Of_Hospital?HOS_ID={HOS_ID}	
+emergencyproject-001-site1.btempurl.com/api/Application/Delete_Application_by_APP_Code?App_Code={App_Code}	
+emergencyproject-001-site1.btempurl.com/api/Application/Delete_APPlication_by_PAT_ID?PAT_ID={PAT_ID}	
+ 
+

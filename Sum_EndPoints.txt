@@ -1,0 +1,163 @@
+API KEYS:
+NAME: EmergencyManagment
+VALUE: B_EM_API_4.5_SECERTPASS_AH8
+____________
+Department
+____________ 
+--> GET
+emergencyproject-001-site1.btempurl.com/api/Department/Get_All_Departments_Of_Hospital?HOS_ID={HOS_ID}	
+emergencyproject-001-site1.btempurl.com/api/Department/Get_Department_By_DEP_ID?DEB_ID={DEB_ID}
+--> POST
+emergencyproject-001-site1.btempurl.com/api/Department/Insert_Department	
+--> PUT
+emergencyproject-001-site1.btempurl.com/api/Department/Update_Department?DEP_ID={DEP_ID}	
+--> DELETE
+emergencyproject-001-site1.btempurl.com/api/Department/Delete_All_Departments_Of_Hospital?HOS_ID={HOS_ID}	
+emergencyproject-001-site1.btempurl.com/api/Department/Delete_Dep?DEP_ID={DEP_ID}	
+ 
+_______________
+Hospital_Phone
+_______________	
+-->GET
+emergencyproject-001-site1.btempurl.com/api/Hospital_Phone/Get_All_Phones_of_Hospital?HOS_ID={HOS_ID}
+emergencyproject-001-site1.btempurl.com/api/Hospital_Phone/Get_Hospital_Phone_By_PHO_ID?PHO_ID={PHO_ID}
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Hospital_Phone/Insert_Hospital_Phone	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Hospital_Phone/Update_Hospital_Phone?PHO_ID={PHO_ID} 
+--> DELETE 
+emergencyproject-001-site1.btempurl.com/api/Hospital_Phone/Delete_All_Hospital_Phones?HOS_ID={HOS_ID}	
+
+_______________
+Patient
+_______________
+--> GET 
+emergencyproject-001-site1.btempurl.com/api/Patient/Get_All_Patients_In_Hospital?HOS_ID={HOS_ID}
+emergencyproject-001-site1.btempurl.com/api/Patient/Get_Patient_By_PAT_ID?PAT_ID={PAT_ID}	 
+emergencyproject-001-site1.btempurl.com/api/Patient/Get_Patient_by_PAT_NatID?PAT_NatID={PAT_NatID}	
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Patient/Insert_Patient	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Patient/Update_Patient?PAT_ID={PAT_ID}	
+--> DELETE 
+emergencyproject-001-site1.btempurl.com/api/Patient/Delete_Patient_by_PAT_ID?PAT_ID={PAT_ID}	
+
+_______________
+Hospital
+_______________
+GET 
+emergencyproject-001-site1.btempurl.com/api/Hospital/Get_All_Hospitals	
+emergencyproject-001-site1.btempurl.com/api/Hospital/Get_Hospital_By_HOS_ID?HOS_ID={HOS_ID}	
+POST 
+emergencyproject-001-site1.btempurl.com/api/Hospital/Insert_Hospital	
+PUT 
+emergencyproject-001-site1.btempurl.com/api/Hospital/Update_Hospital?HOS_ID={HOS_ID}	
+DELETE 
+emergencyproject-001-site1.btempurl.com/api/Hospital/Delete_Hospital_by_HOS_ID?HOS_ID={HOS_ID}	
+
+_______________
+Notes
+_______________
+-->GET
+emergencyproject-001-site1.btempurl.com/api/Notes/Get_Note_By_NOT_ID?NOT_ID={NOT_ID}
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Notes/Insert_Note	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Notes/Update_Note?NOT_ID={NOT_ID}	
+--> DELETE
+emergencyproject-001-site1.btempurl.com/api/Notes/Delete_Note_by_NOT_ID?NOT_ID={NOT_ID}	
+
+_______________ 
+Address_Info
+_______________
+-->GET
+emergencyproject-001-site1.btempurl.com/api/Address_Info/Get_All_Addresses_Of_Patient?PAT_ID={PAT_ID}
+emergencyproject-001-site1.btempurl.com/api/Address_Info/Get_Address_Info_By_ADI_ID?ADI_ID={ADI_ID}
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Address_Info/Insert_Address_Info	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Address_Info/Update_Address_Info?ADI_ID={ADI_ID}	
+--> DELETE 
+emergencyproject-001-site1.btempurl.com/api/Address_Info/Delete_Address_by_ID?ADI_ID={ADI_ID}	
+
+_______________
+Application
+_______________
+--> GET 
+emergencyproject-001-site1.btempurl.com/api/Application/Get_All_Applications_Of_Hospital?HOS_ID={HOS_ID}	
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_APP_ID?APP_ID={APP_ID}
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_APP_Code?APP_Code={APP_Code}	
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_APP_ComName?APP_ComName={APP_ComName}	
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_PAT_NatID?PAT_NatID={PAT_NatID}	
+emergencyproject-001-site1.btempurl.com/api/Application/Get_Application_by_APP_ComNatID?APP_ComNatID={APP_ComNatID}	
+--> POST 
+emergencyproject-001-site1.btempurl.com/api/Application/Insert_Application	
+--> PUT 
+emergencyproject-001-site1.btempurl.com/api/Application/Update_Application?APP_ID={APP_ID}	
+emergencyproject-001-site1.btempurl.com/api/Application/Update_APP_State?APP_ID={APP_ID}&APP_IsOpen={APP_IsOpen}	
+--> DELETE 
+emergencyproject-001-site1.btempurl.com/api/Application/Delete_All_APPlications_Of_Hospital?HOS_ID={HOS_ID}	
+emergencyproject-001-site1.btempurl.com/api/Application/Delete_Application_by_APP_Code?App_Code={App_Code}	
+emergencyproject-001-site1.btempurl.com/api/Application/Delete_APPlication_by_PAT_ID?PAT_ID={PAT_ID}	
+ 
+
+//////////////////// Request //////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/Requst/Insert_Requst 
+emergencyproject-001-site1.btempurl.com/api/Requst/Update_Requst?REQ_ID=value 
+emergencyproject-001-site1.btempurl.com/api/Requst/Delete_Requst?REQ_ID=value // for delete request
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// RequestBlock ///////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/RequstBlock/Insert_RequstBlock 
+emergencyproject-001-site1.btempurl.com/api/RequstBlock/Update_RequstBlock?REQB_ID=value 
+emergencyproject-001-site1.btempurl.com/api/RequstBlock/Delete_RequstBlock?REQB_ID=value 
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// Response ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/Response/Insert_Response  
+emergencyproject-001-site1.btempurl.com/api/Response/Update_Response?RSP_ID=value 
+emergencyproject-001-site1.btempurl.com/api/Response/Delete_Response?RSP_ID=value 
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// ResponseBlock ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/ResponseBlock/Insert_ResponseBlock  
+emergencyproject-001-site1.btempurl.com/api/ResponseBlock/Update_ResponseBlock?RSPB_ID=value 
+emergencyproject-001-site1.btempurl.com/api/ResponseBlock/Update_ResponseBlockResult?RSPB_ID=2&Result=(true or false) // for update (result or not)
+emergencyproject-001-site1.btempurl.com/api/ResponseBlock/Delete_ResponsBlocke?RSPB_ID=value 
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// Staff ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/Staff/Get_All_Staff_Of_Hospital?HOS_ID=value
+emergencyproject-001-site1.btempurl.com/api/Staff/Get_All_Staff_Of_Specific_Type?SST_ID=value
+emergencyproject-001-site1.btempurl.com/api/Staff/Get_Staff_by_STF_NatID?STF_NatID=value
+emergencyproject-001-site1.btempurl.com/api/Staff/Insert_Staff
+emergencyproject-001-site1.btempurl.com/api/Staff/Update_Staff?STF_ID=value
+emergencyproject-001-site1.btempurl.com/api/Staff/Delete_Staff_by_STF_ID?STF_ID=value
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// Staff_Login ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/StaffLogin/Login?SLOG_Username=value&SLOG_Password=value
+emergencyproject-001-site1.btempurl.com/api/StaffLogin/Insert_Staff_Login
+emergencyproject-001-site1.btempurl.com/api/StaffLogin/Update_Staff_Login?SLOG_ID=value
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////// Staff_Type ////////////////////////////////////////////////////////
+
+emergencyproject-001-site1.btempurl.com/api/StaffType/Get_All_Staf_Types_of_Hospital?HOS_ID={HOS_ID}
+emergencyproject-001-site1.btempurl.com/api/StaffType/Insert_Staff_Type
+emergencyproject-001-site1.btempurl.com/api/StaffType/Update_Staff_Type?STT_ID=value
+emergencyproject-001-site1.btempurl.com/api/StaffType/Delete_Staff_Type?STT_ID=value
+
+//////////////////////////////////////////////////////////////////////////////////////
